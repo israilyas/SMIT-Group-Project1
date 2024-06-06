@@ -1,0 +1,65 @@
+.hiro-img {
+    height: 70vh;
+    width: 100%;
+    background-image: url(asset/hiro-image.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    box-sizing: border-box;
+}
+.hiro-img h1{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    font-size: 50px;
+    font-style: italic;
+}
+.card{
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover{
+    transform: scale(1.2);
+    opacity: 999;
+}
+.cat-box{
+    width: 200px;
+    height: 200px;
+}
+
+/* =================== */
+.homepage {
+    background-size: cover;
+    background-image: url(asset/homepage-background.avif);
+    background-repeat: no-repeat;
+}
+
+nav {
+    font-size: 25px;
+}
+.h2{
+    position: relative;
+    top: 35px;
+}
+.link {
+    text-decoration: none !important;
+    color: white !important;
+}
+.btn:hover {
+    border-width: 3px;
+}
+.icons {
+    display: flex;
+    justify-content:flex-end ;
+    margin-top: -55px !important;
+}
+#follow-us {
+    margin-left: 400px !important;
+}
+.footer-list {
+    font-size: 25px;
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.651);
+    color: white;
+}
